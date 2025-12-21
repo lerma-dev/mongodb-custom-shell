@@ -18,8 +18,8 @@ Para usar esta herramienta desde cualquier carpeta en tu terminal:
 
 1. **Clona el repositorio:**
 ```bash
-git clone <tu-repositorio>
-cd mongodb-cli
+git clone https://github.com/<tu-usuario>/mongodb-custom-shell.git
+cd mongodb-custom-shell
 ```
 2. **Instala dependecias y enlaza globalmente:**
 ```bash
@@ -34,13 +34,13 @@ mongo-cli
 ## ⌨️ Guía de Comandos
 
 Comando,Descripción
-    use <nombre_db> --Cambia o crea una base de datos.
-    collection <nombre_col> --Selecciona la colección para las consultas.
-    show dbs --Lista todas las bases de datos en el servidor.
-    show collections --Lista las colecciones de la base de datos actual.
-    find().limit(n) --Ejecuta consultas MQL estándar.
-    cls / clear --Limpia la pantalla de la terminal.
-    exit() --Cierra la conexión y sale de la app.
+* `use <nombre_db>` --Cambia o crea una base de datos.
+* `collection <nombre_col>` --Selecciona la colección para las consultas.
+* `show dbs` --Lista todas las bases de datos en el servidor.
+* `show collections` --Lista las colecciones de la base de datos actual.
+* `find().limit(n)` --Ejecuta consultas MQL estándar.
+* `cls / clear` --Limpia la pantalla de la terminal.
+* `exit()` --Cierra la conexión y sale de la app.
 
 ## 🎨 Tematización (Colores ANSI)
 
