@@ -18,7 +18,7 @@ Para usar esta herramienta desde cualquier carpeta en tu terminal:
 
 1. **Clona el repositorio:**
 ```bash
-git clone https://github.com/<tu-usuario>/mongodb-custom-shell.git
+git clone https://github.com/lerma-dev/mongodb-custom-shell.git
 cd mongodb-custom-shell
 ```
 2. **Instala dependecias y enlaza globalmente:**
